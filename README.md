@@ -54,7 +54,7 @@ bash tests/run-tests.sh
 
 ## 현재 사용 방식과 참고
 
-학습 자료의 고정된 서버 주소·비밀번호, Telnet/FTP 원격 자동화, 무분별한 삭제 명령은 여기서 사용하지 않습니다. 예제는 인자를 따옴표로 묶고, 임시 아카이브 이름을 `mktemp`로 만들며, `cmp`의 종료 상태를 구분합니다. 이전 자료의 환경 설정을 그대로 실행할 필요 없이 자신의 테스트 디렉터리에서 시작할 수 있습니다.
+예제는 고정 서버 주소나 인증 정보를 사용하지 않습니다. 인자를 따옴표로 묶고, 임시 아카이브 이름을 `mktemp`로 만들며, `cmp`의 종료 상태를 구분합니다. 로컬 테스트 디렉터리에서 입력과 출력 결과를 확인합니다.
 
 - [GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 - [GNU tar Manual](https://www.gnu.org/software/tar/manual/tar.html)
